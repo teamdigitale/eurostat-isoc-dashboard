@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "==1.13.0"
+numpy = "*"
+pandas = "==1.5.1"
+plotly = "==5.10.0"
+watchdog = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.9"
