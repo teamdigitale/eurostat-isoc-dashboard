@@ -19,11 +19,18 @@ Tutte le web app, per ragioni di performance, fanno uso di varie pre-elaborazion
 
 Lo script di preprocessing non è al momento incluso nel repository.
 
+## Immagini di esempio
+Differenza dell'Italia rispetto alla media EU in tutte le 24 competenze considerate nel calcolo ufficiale Eurostat delle competenze digitali (dati 2019):
+![Treemap DSK 2019 example](./imgs/treemap-dsk-2019-example.png "Treemap DSK 2019 example")
+
+Distribuzione della percentuale di popolazione che ha usato un linguaggio di programmazione negli ultimi 12 mesi nei Paesi EU divisi per fascia d'età, con valore dell'Italia evidenziato in rosso (dati 2019):
+![Boxplot developers 2019 example](./imgs/boxplot-developers-2019-example.png "Boxplot developers 2019 example")
 
 
 ## Sorgenti dato
 - [Structural Business Statistics](https://ec.europa.eu/eurostat/web/structural-business-statistics/data/database)
 - [Digital Economic and Society - Comprehensive database](https://ec.europa.eu/eurostat/web/digital-economy-and-society/data/comprehensive-database)
+
 
 ## Licenza:
 
