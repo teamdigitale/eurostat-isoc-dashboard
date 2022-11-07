@@ -154,7 +154,7 @@ def app():
     )
     st.write("Statistics on Enterprises, db version 15 March 2022")
     st.write(
-        "Web app source code link: https://github.com/teamdigitale/eurostat-isoc-dashboard/pages/ict_in_enterprises.py"
+        "Web app source code link: https://github.com/teamdigitale/eurostat-isoc-dashboard/blob/main/pages/ict_in_enterprises.py"
     )
 
     if len(df_deltas) == 0:

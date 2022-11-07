@@ -100,7 +100,7 @@ def app():
         "Source table link: http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_bde15cua&lang=en"
     )
     st.write(
-        "Web app source code link: https://github.com/teamdigitale/eurostat-isoc-dashboard/pages/bde15cua_treemaps.py"
+        "Web app source code link: https://github.com/teamdigitale/eurostat-isoc-dashboard/blob/main/pages/bde15cua_treemaps.py"
     )
 
     # --------------------------------------------------------------------------------

@@ -96,7 +96,7 @@ def app():
     )
     st.write("Statistics on Households/Individuals, db version 25 March 2022")
     st.write(
-        "Web app source code link: https://github.com/teamdigitale/eurostat-isoc-dashboard/pages/nuts2_bars.py"
+        "Web app source code link: https://github.com/teamdigitale/eurostat-isoc-dashboard/blob/main/pages/nuts2_bars.py"
     )
 
     # --------------------------------------------------------------------------------
