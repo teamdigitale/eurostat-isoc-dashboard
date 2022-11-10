@@ -26,7 +26,23 @@ Differenza dell'Italia rispetto alla media EU in tutte le 24 competenze consider
 Distribuzione della percentuale di popolazione che ha usato un linguaggio di programmazione negli ultimi 12 mesi nei Paesi EU divisi per fascia d'età, con valore dell'Italia evidenziato in rosso (dati 2019):
 ![Boxplot developers 2019 example](./imgs/boxplot-developers-2019-example.png "Boxplot developers 2019 example")
 
+## Opzioni di installazione
+### Locale (per sviluppatori)
+#### Preparazione del sistema
+Installare [pipenv](https://github.com/pypa/pipenv) e [pyenv](https://github.com/pyenv/pyenv) per gestire dipendenze dei pacchetti e versione di Python. pipenv e pyenv funzioneranno in sinergia, e vanno installati entrambi. Per ulteriori riferimenti si rimanda ai numerosi tutorial presenti in rete.
 
+#### Inizializzazione del reposirory
+Clonare il repo in locale, in una cartella di propria scelta. Dall'interno della cartella principale del repo stesso lanciare poi questo comando:
+```sh
+pipenv install --dev
+```
+#### Lancio della web app
+Una volta terminata l'inizializzazione dell'ambiente Python, lanciare i seguenti comandi:
+```sh
+pipenv shell
+
+streamlit run main_page.py
+```
 ## Sorgenti dato
 - [Structural Business Statistics](https://ec.europa.eu/eurostat/web/structural-business-statistics/data/database)
 - [Digital Economic and Society - Comprehensive database](https://ec.europa.eu/eurostat/web/digital-economy-and-society/data/comprehensive-database)
